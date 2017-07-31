@@ -1,0 +1,20 @@
+{
+  "name": "createhtml",
+  "version": "1.0.0",
+  "description": "Command line tool for creating HTML files from template",
+  "main": "index.js",
+  "scripts": {
+    "test": "createhtml"
+  },
+  "keywords": [
+    "createhtml"
+  ],
+  "author": "Jasu Setälä",
+  "license": "MIT",
+  "bin": {
+    "createhtml": "index.js"
+  },
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
